@@ -1,0 +1,77 @@
+{
+    "A1": {
+        "packages_delivered": 0,
+        "total_distance": 0.0,
+        "efficiency": 0.0,
+        "deliveries": []
+    },
+    "A2": {
+        "packages_delivered": 2,
+        "total_distance": 75.36,
+        "efficiency": 37.68,
+        "deliveries": [
+            {
+                "package_id": "P1",
+                "warehouse_id": "W3",
+                "pickup_distance": 59.08,
+                "delivery_distance": 5.1,
+                "total_distance": 64.18
+            },
+            {
+                "package_id": "P4",
+                "warehouse_id": "W3",
+                "pickup_distance": 5.1,
+                "delivery_distance": 6.08,
+                "total_distance": 11.18
+            }
+        ]
+    },
+    "A3": {
+        "packages_delivered": 3,
+        "total_distance": 60.95,
+        "efficiency": 20.32,
+        "deliveries": [
+            {
+                "package_id": "P2",
+                "warehouse_id": "W2",
+                "pickup_distance": 9.22,
+                "delivery_distance": 9.06,
+                "total_distance": 18.27
+            },
+            {
+                "package_id": "P3",
+                "warehouse_id": "W2",
+                "pickup_distance": 9.06,
+                "delivery_distance": 13.45,
+                "total_distance": 22.51
+            },
+            {
+                "package_id": "P6",
+                "warehouse_id": "W2",
+                "pickup_distance": 13.45,
+                "delivery_distance": 6.71,
+                "total_distance": 20.16
+            }
+        ]
+    },
+    "A4": {
+        "packages_delivered": 1,
+        "total_distance": 23.23,
+        "efficiency": 23.23,
+        "deliveries": [
+            {
+                "package_id": "P5",
+                "warehouse_id": "W4",
+                "pickup_distance": 15.23,
+                "delivery_distance": 8.0,
+                "total_distance": 23.23
+            }
+        ]
+    },
+    "best_agent": "A3",
+    "summary": {
+        "total_packages": 6,
+        "packages_delivered": 6,
+        "all_packages_delivered": true
+    }
+}
